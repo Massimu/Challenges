@@ -1,10 +1,10 @@
-#Desciption:
-depth.r  : run a test for checking correct depth for any arbitrary Directed Acyclic Graph(DAG)  
+# Desciption:
+depth.r: run a test for checking correct depth for any arbitrary Directed Acyclic Graph(DAG)   
 This code includes several function to provide the main function "depth()" requirements. one can  
-find how they work by reading their description within code.  
+find how they work by reading their description within code.
 
 #### required libraries:
-```
+```:
 dequer
 testthat
 ```
@@ -42,9 +42,8 @@ depth list of tested DAG.
 
 
 #### My sample DAG  
-NOTICE: To test for any other DAG this configuration should be changed.  
-
-SAMPLE DAG INPUT:  
+###### NOTICE: To test for any other DAG this configuration should be changed.  
+inputs:    
 ```
 n=7
 source=1

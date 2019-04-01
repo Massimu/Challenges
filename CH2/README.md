@@ -1,4 +1,4 @@
-#Description:
+# Description:  
 providing index.js and routines.js to have a server at desire URL and PORT with specific responses.  
 The project includes three sections. The first one was constructing a package.json file to get 
 requirements. The second and third parts were providing index.js and routes.js files. 
@@ -32,7 +32,7 @@ routes.js: to call the framework, set the user basic url and construct the messa
 index.js : to call the routes.js, set the user port, run server, and send responses through it.  
 Both of these file are decribed in their scripts.  
 
-# To run:
+## To run:
 Having index.js, routes.js, and package.json file one can follow below instructions to run server:  
 
 ##### 1: update the requied packages using below command in terminal:
@@ -51,7 +51,7 @@ localhost:8889/test/foo -------> {"msg":"Hello"}
 and simply change foo to bar to get {"msg":"World"}
 ```
 
-##Extra part:
+## Extra part:
 
 ### To create to image using docker interminal:
 #### steps:
@@ -76,14 +76,15 @@ WORKDIR /usr/src/app
 This image comes with Node.js and NPM already installed so the next thing we need to do is to install your app dependencies using  
 the npm binary. Please note that if you are using npm version 4 or earlier a package-lock.json file will not be generated.  
 Create a .dockerignore file in the same directory as your Dockerfile with following content:   
+
 ‍‍‍‍‍‍‍‍‍‍‍‍‍‍```
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
+#Install app dependencies
+#A wildcard is used to ensure both package.json AND package-lock.json are copied
+#where available (npm@5+)
 COPY package*.json ./
 RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
+#If you are building your code for production
+#RUN npm ci --only=production
 ```
 Note that, rather than copying the entire working directory, we are only copying the package.json file. This allows us to take advantage  
 of cached Docker layers. bitJudo has a good explanation of this here. Furthermore, the npm ci command, specified in the comments, helps  
@@ -91,7 +92,7 @@ provide faster, reliable, reproducible builds for production environments. You c
 
 To bundle your app's source code inside the Docker image, use the COPY instruction:  
 ```
-# Bundle app source
+#Bundle app source
 COPY . .
 ```
 Your app binds to port 8080 so you'll use the EXPOSE instruction to have it mapped by the docker daemon:

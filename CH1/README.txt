@@ -13,20 +13,20 @@ depth.r  : run a test for checking correct depth for any arbitrary Directed Acyc
 This code includes several function to provide the main function "depth()" requirements. one can find how they work
 by reading their description within code.
 
-Prerequisites:
+Prerequisites:Prerequisites
 -----------
-install required libraries in R:
-install.packages("dequer")
-install.packages("testthat")
+~install required libraries in R:
+~install.packages("dequer")
+~install.packages("testthat")
 -----------
 
 How to run in Terminal:
-R
-setwd("path of files")
-system("ls")
-library("dequer")
-library("testthat")
-test_file("depth.r")
+~R
+~setwd("path of files")
+~system("ls")Prerequisites
+~library("dequer")
+~library("testthat")
+~test_file("depth.r")
 
 after that one can follow the instructions to obtain the depths of any DAG nodes.
 

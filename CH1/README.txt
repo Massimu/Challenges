@@ -1,24 +1,24 @@
 Desciption:
 
-#required libraries:
-
-dequer
-testthat
-
-FILE:
+This code includes several function to provide the main function "depth()" requirements. one can find how they work
+by reading their description within code. 
 -------
 depth.r  : run a test for checking correct depth for any arbitrary Directed Acyclic Graph(DAG)
--------
+------- 
+ 
+##required libraries:
+```
+dequer
+testthat
+```
 
-This code includes several function to provide the main function "depth()" requirements. one can find how they work
-by reading their description within code.
+####Prerequisites:Prerequisites
 
-Prerequisites:Prerequisites
------------
-~install required libraries in R:
-~install.packages("dequer")
-~install.packages("testthat")
------------
+install required libraries in R:
+```
+install.packages("dequer")
+install.packages("testthat")
+```
 
 How to run in Terminal:
 ~R

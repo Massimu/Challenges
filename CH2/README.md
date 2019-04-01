@@ -76,8 +76,7 @@ WORKDIR /usr/src/app
 This image comes with Node.js and NPM already installed so the next thing we need to do is to install your app dependencies using  
 the npm binary. Please note that if you are using npm version 4 or earlier a package-lock.json file will not be generated.  
 Create a .dockerignore file in the same directory as your Dockerfile with following content:   
-
-‍‍‍‍‍‍‍‍‍‍‍‍‍‍```
+```
 #Install app dependencies
 #A wildcard is used to ensure both package.json AND package-lock.json are copied
 #where available (npm@5+)

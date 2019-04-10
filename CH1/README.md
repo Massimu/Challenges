@@ -33,7 +33,7 @@ dest : index of nodes with edges
 ```
 Running the code based on mentioned points one can get the result of test as it was asked 
 in the challenge. one who wants to only get the depth value for any DAG without condsidering  
-the test, it is just enough run :
+the test, can simply run :
 ```
 source("depth.r")
 ```

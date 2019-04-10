@@ -59,7 +59,7 @@ and simply change foo to bar to get {"msg":"World"}
 ```
 sudo snap install docker
 ```
-##### 2 - Create Dockerfile and Dockeridnor:
+##### 2 - Create Dockerfile and Dockerignor:
 Open the Dockerfile in your favorite text editor
 ```
 touch Dockerfile

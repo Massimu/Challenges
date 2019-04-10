@@ -118,6 +118,7 @@ user_url=test
 docker_port:8888
 
 ```
+```
 sudo build -t <username>/node-web-app   
 ```               
 To see the result:  
@@ -146,6 +147,7 @@ ttps://nodejs.org/de/docs/guides/nodejs-docker-w
 and simply change foo to bar to get {"msg":"World"}  
 ```
 ###### To load the image via another system:
+
 ```
 sudo docker load -i ~/Desktop/Challenges-master/CH2/url.tar
 ```

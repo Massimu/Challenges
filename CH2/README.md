@@ -99,7 +99,7 @@ Your app binds to port 8080 so you'll use the EXPOSE instruction to have it mapp
 EXPOSE 8080
 ```
 Last but not least, define the command to run your app using CMD which defines your runtime. Here we will use the basic npm start which  
-will run node server.js to start your server:
+will run node index.js to start your server:
 ```
 CMD [ "npm", "start" ]
 ```
